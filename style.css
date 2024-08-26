@@ -1,0 +1,39 @@
+body {
+    /* Establece la imagen de fondo */
+    background-image: url('wayne_stae_black.png');
+
+    /* Asegura que la imagen cubra toda el área de la página sin deformarse */
+    background-size: cover;
+
+    /* Centra la imagen de fondo */
+    background-position: center center;
+
+    /* Evita que la imagen se repita */
+    background-repeat: no-repeat;
+
+    /* Fija la imagen de fondo para que no se mueva al hacer scroll */
+    background-attachment: fixed;
+
+    /* Añade un color de fondo negro semi-transparente sobre la imagen para mejorar la legibilidad */
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+
+    /* Estilo de texto blanco para mejor contraste */
+    color: white;
+}
+
+.content {
+    /* Utiliza flexbox para centrar contenido */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;    /* Centra verticalmente */
+
+    /* Asegura que el contenido ocupe todo el espacio disponible */
+    height: 100vh;
+}
+
+/* Opcional: Puedes ajustar la transparencia del color de fondo para mayor o menor contraste */
+.overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+}
